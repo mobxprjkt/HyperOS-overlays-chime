@@ -3,10 +3,6 @@
     android:versionCode="36"
     android:versionName="16">
     
-    <uses-sdk
-        android:minSdkVersion="30"
-        android:targetSdkVersion="36" />
-    
     <overlay
         android:targetPackage="android"
         android:priority="1000"
