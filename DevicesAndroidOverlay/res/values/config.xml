@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_dozeSupportsAodWallpaper">true</bool>
+    <bool name="config_enableLockScreenRotation">false</bool>
+    <bool name="config_showBuiltinWirelessChargingAnim">false</bool>
+    <bool name="config_showSysuiShutdown">false</bool>
+    <bool name="config_volume_down_to_enter_silent">true</bool>
+    <bool name="config_use_split_notification_shade">true</bool>
+
+    <color name="lock_pattern_view_regular_color">#ffffffff</color>
+    <color name="lock_pattern_view_success_color">#ffffffff</color>
+
+    <item type="dimen" name="config_wallpaperMaxScale">1.2</item>
+    <dimen name="notification_min_height">106.0dip</dimen>
+    <dimen name="rounded_corner_radius">100.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">100.0px</dimen>
+    <dimen name="rounded_corner_radius_top">100.0px</dimen>
+    <dimen name="status_bar_height_default">80.0px</dimen>
+    <dimen name="status_bar_height_portrait">80.0px</dimen>
+    <dimen name="system_app_widget_background_radius">24.0dip</dimen>
+    <dimen name="system_app_widget_inner_radius">16.0dip</dimen>
+
+    <integer name="config_minimumScreenOffTimeout">6000</integer>
+
+    <string name="config_dozeComponent">com.android.systemui/com.android.keyguard.doze.MiuiDozeService</string>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -34 V 86 H 34 V 0 H 0 Z</string>
+    <string name="config_mainDisplayShape">M20 0h1040c11.046 0 20 8.954 20 20v2300c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20V20C0 8.954 8.954 0 20 0Z</string>
+    <string name="ext_media_ready_notification_message">Tap to safely remove device</string>
+</resources>

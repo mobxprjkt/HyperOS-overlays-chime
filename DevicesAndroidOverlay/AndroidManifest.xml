@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.aosp.overlay"
+    package="com.miui.systemui.overlay.devices.android"
     android:versionCode="36"
     android:versionName="16">
 
@@ -11,9 +11,9 @@
         android:targetPackage="android"
         android:priority="1000"
         android:isStatic="true" />
-    
+
     <application
-        android:label="AospFrameworkResOverlay"
+        android:label="DevicesAndroidOverlay"
         android:hasCode="false"
         android:extractNativeLibs="false" />
 </manifest>

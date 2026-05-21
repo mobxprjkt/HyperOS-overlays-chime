@@ -1,2 +1,3 @@
 PRODUCT_PACKAGES += \
-	AospFrameworkResOverlay
+	AospFrameworkResOverlay \
+	DevicesAndroidOverlay
