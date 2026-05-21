@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.aosp.overlay"
+    android:versionCode="36"
+    android:versionName="16">
+    <overlay
+        android:targetPackage="android"
+        android:priority="1000"
+        android:isStatic="true" />
+    <application
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>
