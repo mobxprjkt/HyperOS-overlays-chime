@@ -1,7 +1,9 @@
-name: Overlay
+name: Overlay HyperOS3 chime
 
 on:
   workflow_dispatch:
+  push:
+    branches: [HyperOS3-16]
   pull_request:
     branches: [HyperOS3-16]
 
@@ -15,8 +17,8 @@ jobs:
 
     - name: Prepare the environment
       run: |
-        sudo apt -y install git-core git xmlstarlet
         sudo apt update
+        sudo apt -y install git-core git xmlstarlet
 
     - name: Build APK's
       run: |
