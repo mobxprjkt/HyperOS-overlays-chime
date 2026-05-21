@@ -1,6 +1,7 @@
 name: Overlay
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [HyperOS3-16]
 
