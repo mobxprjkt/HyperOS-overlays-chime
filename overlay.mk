@@ -2,4 +2,5 @@ PRODUCT_PACKAGES += \
 	AospFrameworkResOverlay \
 	DevicesAndroidOverlay \
 	DevicesOverlay \
-	FrameworksResCommon_Sys
+	FrameworksResCommon_Sys \
+	MiuiFrameworkResOverlay
