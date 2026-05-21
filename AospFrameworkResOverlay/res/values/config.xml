@@ -90,7 +90,7 @@
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
     <bool name="config_enableGeofenceOverlay">false</bool>
     <bool name="config_pinnerAssistantApp">false</bool>
-    <bool name="config_pinnerCameraApp">false</bool>
+    <bool name="config_pinnerCameraApp">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_spatial_audio_head_tracking_enabled_default">false</bool>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_dual_bar">true</bool>
+
+    <integer name="config_volte_replacement_rat">6</integer>
+</resources>
