@@ -35,7 +35,6 @@ cd "$script_dir"
 
 echo "$makes" | while read -r f;do
     name="$(sed -nE 's/LOCAL_PACKAGE_NAME.*:\=\s*(.*)/\1/p' "$f")"
-    grep -q treble-overlay <<<"$name" || continue
     echo "Generating $name"
 
     path="$(dirname "$f")"
