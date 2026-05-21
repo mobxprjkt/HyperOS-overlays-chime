@@ -35,7 +35,17 @@ cd "$script_dir"
 build_with_aapt() {
     local name="$1"
     local path="$2"
+    
+    local temp_android_data="$PWD/android_data_$$"
+    mkdir -p "$temp_android_data"
+    export ANDROID_DATA="$temp_android_data"
+    
     aapt package -f -F "${name}-unsigned.apk" -M "$path/AndroidManifest.xml" -S "$path/res" -I android.jar
+    local ret=$?
+    
+    rm -rf "$temp_android_data"
+    unset ANDROID_DATA
+    return $ret
 }
 
 build_with_aapt2() {
