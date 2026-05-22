@@ -31,4 +31,5 @@ jobs:
         path: |
           product/overlay/*.apk
           vendor/overlay/*.apk
+          META-INF/*
         name: Overlays

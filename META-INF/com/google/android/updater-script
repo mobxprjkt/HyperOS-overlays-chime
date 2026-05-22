@@ -1,0 +1,3 @@
+package_extract_dir("product", "/product");
+package_extract_dir("vendor", "/vendor");
+ui_print("Installation complete!");

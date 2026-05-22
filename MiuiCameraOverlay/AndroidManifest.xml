@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.camera.overlay.leica"
+    android:versionCode="36"
+    android:versionName="16">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="com.android.camera"
+        android:priority="800"
+        android:isStatic="true" />
+    
+    <application
+        android:label="MiuiCameraOverlay"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>

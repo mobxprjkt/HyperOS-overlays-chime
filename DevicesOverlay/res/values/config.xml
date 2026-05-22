@@ -12,6 +12,7 @@
     <bool name="support_hyperos_device_controls_feature">true</bool>
     <bool name="config_extra_battery_saver_confirmation">true</bool>
     <bool name="config_volumeDialogUseBackgroundBlur">true</bool>
+    <bool name="doze_display_state_supported">true</bool>
 
     <color name="dark_mode_icon_color_single_tone">#d9000000</color>
     <color name="light_mode_icon_color_single_tone">#ffffffff</color>

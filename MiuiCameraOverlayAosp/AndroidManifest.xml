@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.overlay.miuicameraosp"
+    android:versionCode="36"
+    android:versionName="16">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="android"
+        android:priority="1"
+        android:isStatic="true" />
+    
+    <application
+        android:label="MiuiCameraOverlayAosp"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>

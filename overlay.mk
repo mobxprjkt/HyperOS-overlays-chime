@@ -10,6 +10,8 @@ PRODUCT_PACKAGES += \
 	MRTphoneOverlay \
 	MRTthemeOverlay \
 	SettingsRroDeviceTypeOverlay \
+	MiuiCameraOverlay \
+	MiuiCameraOverlayAosp \
 	
 	# vendor overlay
 	BluetoothOverlay \
