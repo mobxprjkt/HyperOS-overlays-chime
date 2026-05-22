@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.aosp.overlay"
     android:versionCode="36"
-    android:versionName="16">
+    android:versionName="16"
+    coreApp="true">
 
     <uses-sdk
         android:minSdkVersion="30"

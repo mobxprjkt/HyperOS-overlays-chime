@@ -1,19 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.common"
+    package="com.android.wifi.resources.overlay.target"
     android:versionCode="36"
-    android:versionName="16"
-    coreApp="true">
+    android:versionName="16">
 
     <uses-sdk
         android:minSdkVersion="30"
         android:targetSdkVersion="36" />
 
     <overlay
-        android:targetPackage="android"
-        android:priority="100"
+        android:targetPackage="com.android.wifi.resources"
+        android:targetName="WifiCustomization"
+        android:priority="500"
         android:isStatic="true" />
     
     <application
-        android:label="FrameworksResCommon_Sys"
+        android:label="WifiResTarget"
+        android:hasCode="false"
         android:extractNativeLibs="false" />
 </manifest>

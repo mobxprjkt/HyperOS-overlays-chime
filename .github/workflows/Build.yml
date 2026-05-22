@@ -28,5 +28,7 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        path: build/*.apk
+        path: |
+          product/overlay/*.apk
+          vendor/overlay/*.apk
         name: Overlays

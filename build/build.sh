@@ -32,6 +32,46 @@ fi
 
 cd "$script_dir"
 
+root_dir="$(cd "$script_dir/.." && pwd)"
+overlay_mk="$root_dir/overlay.mk"
+
+declare -a product_packages
+declare -a vendor_packages
+
+if [ -f "$overlay_mk" ]; then
+    current_section=""
+    while IFS= read -r line; do
+        line="${line%\\}"
+        line="$(echo "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        [[ -z "$line" ]] && continue
+
+        if [[ "$line" == "# product overlay" ]]; then
+            current_section="product"
+            continue
+        elif [[ "$line" == "# vendor overlay" ]]; then
+            current_section="vendor"
+            continue
+        fi
+
+        [[ "$line" == \#* ]] && continue
+
+        if [[ "$current_section" == "product" ]]; then
+            product_packages+=("$line")
+        elif [[ "$current_section" == "vendor" ]]; then
+            vendor_packages+=("$line")
+        fi
+    done < "$overlay_mk"
+else
+    echo "Warning: overlay.mk not found, APKs will stay in build/"
+fi
+
+contains() {
+    local e match="$1"
+    shift
+    for e; do [[ "$e" == "$match" ]] && return 0; done
+    return 1
+}
+
 build_with_aapt() {
     local name="$1"
     local path="$2"
@@ -79,4 +119,17 @@ echo "$makes" | while read -r f; do
     
     LD_LIBRARY_PATH=./signapk/ java -jar signapk/signapk.jar keys/platform.x509.pem keys/platform.pk8 "${name}-unsigned.apk" "${name}.apk"
     rm -f "${name}-unsigned.apk"
+
+    if [ -f "$overlay_mk" ]; then
+        if contains "$name" "${product_packages[@]}"; then
+            target_dir="$root_dir/product/overlay"
+        elif contains "$name" "${vendor_packages[@]}"; then
+            target_dir="$root_dir/vendor/overlay"
+        else
+            target_dir="$root_dir/build"
+        fi
+        mkdir -p "$target_dir"
+        mv "${name}.apk" "$target_dir/"
+        echo "Moved ${name}.apk to $target_dir"
+    fi
 done

@@ -1,4 +1,5 @@
 PRODUCT_PACKAGES += \
+    # product overlay
 	AospFrameworkResOverlay \
 	DevicesAndroidOverlay \
 	DevicesOverlay \
@@ -6,4 +7,11 @@ PRODUCT_PACKAGES += \
 	MiuiFrameworkResOverlay \
 	MiuiHomeLauncherResOverlay \
 	MRTmiwallpaperOverlay \
-	MRTphoneOverlay
+	MRTphoneOverlay \
+	MRTthemeOverlay \
+	SettingsRroDeviceTypeOverlay \
+	
+	# vendor overlay
+	BluetoothOverlay \
+	FrameworksResTarget_Vendor \
+	WifiResTarget

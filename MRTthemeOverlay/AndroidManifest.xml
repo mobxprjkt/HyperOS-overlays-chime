@@ -1,19 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.common"
+    package="com.mrtproject.thememanager.overlay"
     android:versionCode="36"
-    android:versionName="16"
-    coreApp="true">
+    android:versionName="16">
 
     <uses-sdk
         android:minSdkVersion="30"
         android:targetSdkVersion="36" />
 
     <overlay
-        android:targetPackage="android"
-        android:priority="100"
+        android:targetPackage="com.android.thememanager"
+        android:priority="9999"
         android:isStatic="true" />
     
     <application
-        android:label="FrameworksResCommon_Sys"
+        android:label="Themes Overlay"
+        android:hasCode="false"
         android:extractNativeLibs="false" />
 </manifest>

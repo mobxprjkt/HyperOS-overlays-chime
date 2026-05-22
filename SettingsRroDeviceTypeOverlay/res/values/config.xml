@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_global_support_slm">true</bool>
+    <bool name="config_show_softap_wifi6">false</bool>
+    <bool name="credentials_image_m2010j19cg">true</bool>
+    <bool name="credentials_image_m2010j19sg">true</bool>
+    <bool name="credentials_image_m2010j19sl">true</bool>
+    <bool name="credentials_image_m2010j19sy">true</bool>
+</resources>
