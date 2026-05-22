@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.miui.home.launcher.res"
+    android:versionCode="36"
+    android:versionName="16"
+    coreApp="true">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="android"
+        android:priority="100"
+        android:isStatic="true" />
+    
+    <application
+        android:label="MiuiHomeLauncherResOverlay"
+        android:hasCode="false"
+        android:extractNativeLibs="false"
+        android:requiredSystemPropertyName="ro.miui.product.home"
+        android:requiredSystemPropertyValue="com.miui.home" />
+</manifest>

@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mrtproject.wallpaper.overlay"
+    android:versionCode="36"
+    android:versionName="16">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="com.miui.miwallpaper"
+        android:priority="9999"
+        android:isStatic="true" />
+    
+    <application
+        android:label="MiWallpaper Overlay"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>

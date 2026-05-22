@@ -3,4 +3,7 @@ PRODUCT_PACKAGES += \
 	DevicesAndroidOverlay \
 	DevicesOverlay \
 	FrameworksResCommon_Sys \
-	MiuiFrameworkResOverlay
+	MiuiFrameworkResOverlay \
+	MiuiHomeLauncherResOverlay \
+	MRTmiwallpaperOverlay \
+	MRTphoneOverlay
