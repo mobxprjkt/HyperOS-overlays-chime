@@ -3,7 +3,7 @@
 <!--
     Leica Camera Overlay Configuration
     Optimized for Redmi 9T & POCO M3 (Snapdragon 662)
-    - 4K60 disabled (not supported by hardware)
+    - 4K disabled (not supported by hardware)
     - Ultra-wide 0.5x enabled by default
     - Parallel processing enabled by default (disable if unstable on custom ROMs)
 -->
@@ -24,8 +24,8 @@
     <!-- Enable Parallel Processing for Portrait Mode -->
     <bool name="pref_parallelportrait_default">true</bool>
 
-    <!-- Enable 4K 30fps support (supported by SD662) -->
-    <bool name="pref_4k_default">true</bool>
+    <!-- Enable 4K 30fps support (doesn't supported by SD662) -->
+    <bool name="pref_4k_default">false</bool>
 
     <!-- Disable 4K 60fps (hardware does not support it) -->
     <bool name="pref_4k60_default">false</bool>
