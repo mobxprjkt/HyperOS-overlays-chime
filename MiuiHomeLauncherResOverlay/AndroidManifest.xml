@@ -16,7 +16,7 @@
     <application
         android:label="MiuiHomeLauncherResOverlay"
         android:hasCode="false"
-        android:extractNativeLibs="false"
+        android:extractNativeLibs="true"
         android:requiredSystemPropertyName="ro.miui.product.home"
         android:requiredSystemPropertyValue="com.miui.home" />
 </manifest>

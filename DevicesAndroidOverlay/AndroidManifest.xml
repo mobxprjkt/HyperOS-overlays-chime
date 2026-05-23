@@ -16,5 +16,5 @@
     <application
         android:label="DevicesAndroidOverlay"
         android:hasCode="false"
-        android:extractNativeLibs="false" />
+        android:extractNativeLibs="true" />
 </manifest>
