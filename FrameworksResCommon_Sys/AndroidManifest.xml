@@ -15,5 +15,5 @@
     
     <application
         android:label="FrameworksResCommon_Sys"
-        android:extractNativeLibs="true" />
+        android:extractNativeLibs="false" />
 </manifest>
