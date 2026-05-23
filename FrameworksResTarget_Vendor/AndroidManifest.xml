@@ -10,11 +10,11 @@
 
     <overlay
         android:targetPackage="android"
-        android:priority="500"
+        android:priority="100"
         android:isStatic="true" />
     
     <application
         android:label="FrameworksResTarget_Vendor"
         android:hasCode="false"
-        android:extractNativeLibs="false" />
+        android:extractNativeLibs="true" />
 </manifest>
