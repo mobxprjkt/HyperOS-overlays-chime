@@ -14,6 +14,5 @@ PRODUCT_PACKAGES += \
 	MiuiCameraOverlayAosp \
 	
 	# vendor overlay
-	BluetoothOverlay \
 	FrameworksResTarget \
 	WifiResTarget
