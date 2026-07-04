@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.target.vendor"
+    package="android.overlay.target"
     android:versionCode="36"
     android:versionName="16"
     coreApp="true">
@@ -14,7 +14,7 @@
         android:isStatic="true" />
     
     <application
-        android:label="FrameworksResTarget_Vendor"
+        android:label="FrameworksResTarget"
         android:hasCode="false"
         android:extractNativeLibs="true" />
 </manifest>
