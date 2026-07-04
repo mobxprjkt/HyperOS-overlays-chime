@@ -15,5 +15,5 @@ PRODUCT_PACKAGES += \
 	
 	# vendor overlay
 	BluetoothOverlay \
-	FrameworksResTarget_Vendor \
+	FrameworksResTarget \
 	WifiResTarget
