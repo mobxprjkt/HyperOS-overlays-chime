@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.carrierconfig.overlay.common"
+    android:versionCode="36"
+    android:versionName="16">
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="com.android.carrierconfig"
+        android:priority="100"
+        android:isStatic="true" />
+    
+    <application
+        android:label="CarrierConfigResCommon_Sys"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>

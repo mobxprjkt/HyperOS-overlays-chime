@@ -131,5 +131,7 @@ echo "$makes" | while read -r f; do
         mkdir -p "$target_dir"
         mv "${name}.apk" "$target_dir/"
         echo "Moved ${name}.apk to $target_dir"
+        mkdir -p "$root_dir/product/etc"
+        cp "$root_dir/CarrierConfigResCommon_Sys/etc/apns-conf.xml" "$root_dir/product/etc"
     fi
 done
