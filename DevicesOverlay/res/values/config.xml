@@ -3,7 +3,6 @@
     <bool name="config_switch_sim_locked_tips">true</bool>
     <bool name="keyguard_charge_support_shader">true</bool>
     <bool name="status_bar_separate_data_and_voice">false</bool>
-    <bool name="support_round_corner">false</bool>
     <bool name="flag_charging_ripple">true</bool>
     <bool name="force_shade_low_end_anim">false</bool>
     <bool name="shade_header_gradient_blur">true</bool>
