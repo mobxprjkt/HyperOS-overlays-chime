@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>100</item>
+        <item>400</item>
+        <item>600</item>
+        <item>1000</item>
+    </integer-array>
+
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>800</item>
+        <item>800</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+    </integer-array>
+
+    <integer-array name="config_ambientThresholdLevels">
+        <item>2</item>
+        <item>10</item>
+        <item>30</item>
+        <item>100</item>
+        <item>800</item>
+        <item>2000</item>
+        <item>4000</item>
+    </integer-array>
+
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>3</item>
+        <item>5</item>
+        <item>20</item>
+        <item>60</item>
+        <item>110</item>
+        <item>220</item>
+        <item>340</item>
+        <item>400</item>
+        <item>400</item>
+    </integer-array>
+
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>50</item>
+        <item>80</item>
+        <item>260</item>
+        <item>700</item>
+        <item>1200</item>
+        <item>2300</item>
+        <item>3300</item>
+        <item>3900</item>
+        <item>4095</item>
+    </integer-array>
+
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>5</item>
+        <item>20</item>
+        <item>100</item>
+        <item>500</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+    </integer-array>
+
+    <integer-array name="config_screenBrighteningThresholds">
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="config_screenDarkeningThresholds">
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="config_enabledCredentialProviderService">
+        <item>com.miui.contentcatcher/com.miui.credential.provider.XiaomiCredentialProviderService</item>
+        <item>com.google.android.gms/.auth.api.credentials.credman.service.PasswordAndPasskeyService</item>
+    </string-array>
+
+    <string-array name="config_primaryCredentialProviderService">
+        <item>com.miui.contentcatcher/com.miui.credential.provider.XiaomiCredentialProviderService</item>
+    </string-array>
+
+    <string-array name="disallowed_apps_managed_profile">
+        <item>com.miui.mishare.connectivity</item>
+    </string-array>
+
+    <string-array name="vendor_required_apps_managed_profile">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.documentsui</item>
+    </string-array>
+
+    <array name="config_screenThresholdLevels" />
+    <array name="config_telephonyEuiccDeviceCapabilities" />
+    <array name="non_removable_euicc_slots" />
+</resources>

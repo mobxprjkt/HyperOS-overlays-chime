@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_chargingFastThreshold">10000000</integer>
+    <integer name="config_chargingFastThreshold_v2">10800000</integer>
+    <integer name="config_chargingSlowlyThreshold">2000000</integer>
+</resources>

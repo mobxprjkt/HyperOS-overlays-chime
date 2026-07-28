@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_mode_icon_color_single_tone">#d9000000</color>
+    <color name="light_mode_icon_color_single_tone">#ffffffff</color>
+    <color name="tint_mode_icon_color_single_tone">#ff000000</color>
+</resources>

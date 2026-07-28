@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="new_round_height_bottom">100.0px</dimen>
+    <dimen name="new_round_height_top">100.0px</dimen>
+    <dimen name="notch_height">80.0px</dimen>
+    <dimen name="notch_width">160.0px</dimen>
+    <dimen name="rounded_corner_content_padding">40.0px</dimen>
+    <dimen name="navigation_side_padding">55.0dip</dimen>
+    <dimen name="qs_control_center_header_paddingTop">5.0dip</dimen>
+    <dimen name="qs_control_land_tiles_margin_middle">20.0dip</dimen>
+</resources>

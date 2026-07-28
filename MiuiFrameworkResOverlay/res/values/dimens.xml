@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_GammaLinearConvertAValue">0.21459933</dimen>
+    <dimen name="config_GammaLinearConvertBValue">0.28466892</dimen>
+    <dimen name="config_GammaLinearConvertCValue">0.4718929</dimen>
+    <dimen name="config_GammaLinearConvertRValue">0.4</dimen>
+</resources>

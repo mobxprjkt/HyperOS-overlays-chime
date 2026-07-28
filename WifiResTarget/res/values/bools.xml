@@ -15,6 +15,4 @@
     <bool name="config_wifi_softap_acs_supported">true</bool>
     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
     <bool name="config_wifi_softap_sae_supported">true</bool>
-    
-    <integer name="config_wifiHardwareSoftapMaxClientCount">32</integer>
 </resources>

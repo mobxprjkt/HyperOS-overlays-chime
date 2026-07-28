@@ -6,8 +6,4 @@
     <bool name="credentials_image_m2010j19sg">true</bool>
     <bool name="credentials_image_m2010j19sl">true</bool>
     <bool name="credentials_image_m2010j19sy">true</bool>
-    
-    <integer name="config_chargingFastThreshold">10000000</integer>
-    <integer name="config_chargingFastThreshold_v2">10800000</integer>
-    <integer name="config_chargingSlowlyThreshold">2000000</integer>
 </resources>

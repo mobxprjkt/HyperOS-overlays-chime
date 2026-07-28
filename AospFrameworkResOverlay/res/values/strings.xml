@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="allow">Allow</string>
+    <string name="config_defaultAttentionService">com.xiaomi.aon/com.xiaomi.aon.AonAttentionService</string>
+    <string name="config_defaultCredentialManagerHybridService">com.miui.contentcatcher/com.miui.credential.provider.XiaomiCredentialProviderService</string>
+    <string name="config_geofenceProviderPackageName">com.google.android.gms</string>
+    <string name="config_screenshotServiceComponent">com.miui.screenshot/com.miui.screenshot.TakeScreenshotService</string>
+    <string name="deny">Deny</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="china_ntp_servers">
+        <item>hshh.org</item>
+        <item>t1.hshh.org</item>
+        <item>cn.ntp.org.cn</item>
+    </string-array>
+    <integer-array name="config_compensateSignalLevelValue">
+        <item>2</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="config_hbm_backlight_levels">
+        <item>0</item>
+        <item>255</item>
+        <item>511</item>
+        <item>767</item>
+        <item>1023</item>
+        <item>1279</item>
+        <item>1535</item>
+        <item>1791</item>
+        <item>2047</item>
+        <item>2303</item>
+        <item>2559</item>
+        <item>2815</item>
+        <item>3071</item>
+        <item>3327</item>
+        <item>3583</item>
+        <item>3839</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_hbm_lux_levels">
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>14000</item>
+        <item>16000</item>
+        <item>18000</item>
+        <item>20000</item>
+        <item>25000</item>
+        <item>30000</item>
+        <item>35000</item>
+        <item>40000</item>
+        <item>50000</item>
+        <item>60000</item>
+        <item>70000</item>
+    </integer-array>
+    <integer-array name="config_hbm_nit_levels">
+        <item>0</item>
+        <item>31</item>
+        <item>62</item>
+        <item>94</item>
+        <item>125</item>
+        <item>156</item>
+        <item>188</item>
+        <item>219</item>
+        <item>250</item>
+        <item>281</item>
+        <item>312</item>
+        <item>344</item>
+        <item>375</item>
+        <item>406</item>
+        <item>438</item>
+        <item>469</item>
+        <item>500</item>
+    </integer-array>
+    <integer-array name="config_hightGrayBrightnessLevels">
+        <item>150</item>
+        <item>500</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_lowGrayBrightnessLevels">
+        <item>100</item>
+        <item>150</item>
+        <item>700</item>
+        <item>800</item>
+        <item>4095</item>
+    </integer-array>
+    <integer-array name="config_touch_cover_protection_rect">
+        <item>0</item>
+        <item>0</item>
+        <item>1080</item>
+        <item>550</item>
+    </integer-array>
+</resources>
