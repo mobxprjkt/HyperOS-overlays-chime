@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cutout dimensions (reduced from 20dp for better camera alignment) -->
+    <dimen name="cutout_height">18.0dip</dimen>
+    <dimen name="cutout_width">18.0dip</dimen>
+
+    <!-- Island outer padding (increased from 8dp for more breathing room) -->
+    <dimen name="island_area_padding">10.0dip</dimen>
+
+    <!-- Expanded island height (increased from 84dp for large font support) -->
+    <dimen name="dynamic_island_height">96.0dip</dimen>
+
+    <!-- Collapsed state dimensions -->
+    <dimen name="island_height">34.0dip</dimen>
+    <dimen name="island_fixed_width">31.0dip</dimen>
+    <dimen name="small_island_width">34.0dip</dimen>
+
+    <!-- Expanded state width -->
+    <dimen name="big_island_min_width">108.0dip</dimen>
+
+    <!-- Visual styling -->
+    <dimen name="island_radius">30.0dip</dimen>
+    <dimen name="island_stroke">1.3999939dip</dimen>
+    <dimen name="island_icon_radius">4.5599976dip</dimen>
+    <dimen name="island_big_icon_size">26.0dip</dimen>
+    <dimen name="island_space">4.0dip</dimen>
+
+    <!-- Cutout-specific padding (optional) -->
+    <dimen name="island_area_padding_cutout">1.0dip</dimen>
+</resources>

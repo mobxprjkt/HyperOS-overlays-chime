@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
 	FrameworksResCommon_Sys \
 	MiuiFrameworkResOverlay \
 	MiuiHomeLauncherResOverlay \
+	MIUISystemUIPluginOverlay \
 	MRTmiwallpaperOverlay \
 	MRTphoneOverlay \
 	MRTthemeOverlay \
