@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="miui.systemui.plugin.overlay"
+    android:versionCode="36"
+    android:versionName="16">
+
+    <uses-sdk
+        android:minSdkVersion="36"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="miui.systemui.plugin"
+        android:priority="1000"
+        android:isStatic="true" />
+    
+    <application
+        android:label="System UI Plug-in"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>

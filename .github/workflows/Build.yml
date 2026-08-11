@@ -1,0 +1,36 @@
+name: Overlay HyperOS3 chime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [HyperOS3-16]
+  pull_request:
+    branches: [HyperOS3-16]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out
+      uses: actions/checkout@main
+
+    - name: Prepare the environment
+      run: |
+        sudo apt update
+        sudo apt -y install git-core git xmlstarlet
+
+    - name: Build APK's
+      run: |
+        cd build
+        bash build.sh
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        path: |
+          product/etc/apns-conf.xml
+          product/overlay/*.apk
+          vendor/overlay/*.apk
+          META-INF/*
+        name: HyperOS3-Overlays-chime

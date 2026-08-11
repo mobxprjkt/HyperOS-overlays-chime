@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Island height -->
+    <dimen name="island_height">34.0dp</dimen>
+    <dimen name="island_height_final_height">24.0dp</dimen>
+    <dimen name="island_height_pad">28.0dp</dimen>
+    
+    <!-- Island vertical position -->
+    <dimen name="island_mini_y">8.0dp</dimen>
+
+</resources>
