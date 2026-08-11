@@ -9,7 +9,7 @@
 
     <overlay
         android:targetPackage="com.android.settings"
-        android:priority="0"
+        android:priority="100"
         android:isStatic="true" />
     
     <application
