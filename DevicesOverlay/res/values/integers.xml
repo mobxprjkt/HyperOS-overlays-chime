@@ -3,4 +3,7 @@
     <integer name="force_use_control_panel">0</integer>
     <integer name="panel_tracking_sample_rate">1</integer>
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+    <integer name="config_chargingFastThreshold">3000000</integer> <!-- 3W -->
+    <integer name="config_chargingFastThreshold_v2">5000000</integer> <!-- 5W -->
+    <integer name="config_chargingSlowlyThreshold">1000000</integer> <!-- 1W -->
 </resources>
