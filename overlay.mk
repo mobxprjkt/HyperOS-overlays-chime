@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 	MRTmiwallpaperOverlay \
 	MRTphoneOverlay \
 	MRTthemeOverlay \
+	PowerKeeperOverlay \
 	SecurityCenterOverlay \
 	SettingsRroDeviceTypeOverlay \
 	MiuiCameraOverlay \
