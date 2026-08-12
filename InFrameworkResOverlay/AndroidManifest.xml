@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.android.overlay"
+    android:versionCode="36"
+    android:versionName="16"
+    coreApp="true">
+
+    <uses-sdk
+        android:minSdkVersion="36"
+        android:targetSdkVersion="36" />
+
+    <overlay
+        android:targetPackage="android"
+        android:priority="1000"
+        android:isStatic="true" />
+
+    <application
+        android:label="android"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+
+</manifest>

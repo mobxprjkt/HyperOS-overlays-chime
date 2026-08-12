@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources sparse="true">
+    <string name="date_and_time">%H:%M:%S %-e %b %Y</string>
+    <string name="date_time">%2$s %1$s</string>
+    <string name="time_of_day">%H:%M:%S</string>
+</resources>
